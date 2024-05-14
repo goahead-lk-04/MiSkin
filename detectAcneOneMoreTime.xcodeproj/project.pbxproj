@@ -7,18 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		538E4C1B2BA762E80052990A /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538E4C1A2BA762E80052990A /* Vision.framework */; };
+		538E4C1F2BA79B130052990A /* Faces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 538E4C1E2BA79B130052990A /* Faces.mlmodel */; };
+		538E4C212BA7E7450052990A /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538E4C202BA7E7450052990A /* CameraPreview.swift */; };
+		538E4C422BABAC200052990A /* acne_classification_model21.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 538E4C412BABAC050052990A /* acne_classification_model21.tflite */; };
+		538E4C492BABB6650052990A /* acnebi_classification_model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 538E4C482BABB65D0052990A /* acnebi_classification_model.tflite */; };
+		539179462B8CE21D006DC9E8 /* CompareFaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539179452B8CE21D006DC9E8 /* CompareFaces.swift */; };
+		539180472B4CFE820085C0B4 /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = 539180462B4CFE820085C0B4 /* FirebaseMLModelDownloader */; };
+		539180492B4D10D80085C0B4 /* retrained_labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 539180482B4D10D80085C0B4 /* retrained_labels.txt */; };
+		5391804D2B4F400C0085C0B4 /* acne_classification_model17.h5.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 5391804C2B4F3FFA0085C0B4 /* acne_classification_model17.h5.tflite */; };
 		53AF1B372B4CF4AB00E192B0 /* detectAcneOneMoreTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AF1B362B4CF4AB00E192B0 /* detectAcneOneMoreTimeApp.swift */; };
 		53AF1B392B4CF4AB00E192B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AF1B382B4CF4AB00E192B0 /* ContentView.swift */; };
 		53AF1B3B2B4CF4AC00E192B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AF1B3A2B4CF4AC00E192B0 /* Assets.xcassets */; };
 		53AF1B3E2B4CF4AC00E192B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AF1B3D2B4CF4AC00E192B0 /* Preview Assets.xcassets */; };
+		53AF1B452B4CF4EF00E192B0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53AF1B442B4CF4EF00E192B0 /* GoogleService-Info.plist */; };
+		53B704BE2BACA34F009348A9 /* acnebinar_classification_model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 53B704BD2BACA33B009348A9 /* acnebinar_classification_model.tflite */; };
+		53E8C1A42BB1F79200C4E3B8 /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E8C1A32BB1F79100C4E3B8 /* AppImage.swift */; };
+		53EA432B2B9AD9230077D9E2 /* acne_classification_model10.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 53EA432A2B9AD9230077D9E2 /* acne_classification_model10.tflite */; };
+		53EA432D2B9ADA010077D9E2 /* MLWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EA432C2B9ADA010077D9E2 /* MLWork.swift */; };
+		8A6706AAB613898A4F2B1971 /* Pods_detectAcneOneMoreTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0C1FC802FF1D81482D5A72 /* Pods_detectAcneOneMoreTime.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		535C5B132B9E22D30013EDC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		538E4C1A2BA762E80052990A /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
+		538E4C1E2BA79B130052990A /* Faces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Faces.mlmodel; sourceTree = "<group>"; };
+		538E4C202BA7E7450052990A /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		538E4C412BABAC050052990A /* acne_classification_model21.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = acne_classification_model21.tflite; sourceTree = "<group>"; };
+		538E4C482BABB65D0052990A /* acnebi_classification_model.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = acnebi_classification_model.tflite; sourceTree = "<group>"; };
+		539179452B8CE21D006DC9E8 /* CompareFaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareFaces.swift; sourceTree = "<group>"; };
+		539180482B4D10D80085C0B4 /* retrained_labels.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = retrained_labels.txt; sourceTree = "<group>"; };
+		5391804C2B4F3FFA0085C0B4 /* acne_classification_model17.h5.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = acne_classification_model17.h5.tflite; sourceTree = "<group>"; };
 		53AF1B332B4CF4AB00E192B0 /* detectAcneOneMoreTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = detectAcneOneMoreTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53AF1B362B4CF4AB00E192B0 /* detectAcneOneMoreTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detectAcneOneMoreTimeApp.swift; sourceTree = "<group>"; };
 		53AF1B382B4CF4AB00E192B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		53AF1B3A2B4CF4AC00E192B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53AF1B3D2B4CF4AC00E192B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		53AF1B442B4CF4EF00E192B0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		53B704BD2BACA33B009348A9 /* acnebinar_classification_model.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = acnebinar_classification_model.tflite; sourceTree = "<group>"; };
+		53E8C1A32BB1F79100C4E3B8 /* AppImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImage.swift; sourceTree = "<group>"; };
+		53EA432A2B9AD9230077D9E2 /* acne_classification_model10.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = acne_classification_model10.tflite; sourceTree = "<group>"; };
+		53EA432C2B9ADA010077D9E2 /* MLWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLWork.swift; sourceTree = "<group>"; };
+		5B0C1FC802FF1D81482D5A72 /* Pods_detectAcneOneMoreTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_detectAcneOneMoreTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73248EC1D60EBED94991CCB /* Pods-detectAcneOneMoreTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-detectAcneOneMoreTime.release.xcconfig"; path = "Target Support Files/Pods-detectAcneOneMoreTime/Pods-detectAcneOneMoreTime.release.xcconfig"; sourceTree = "<group>"; };
+		FCF1198E982DC75F8794A862 /* Pods-detectAcneOneMoreTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-detectAcneOneMoreTime.debug.xcconfig"; path = "Target Support Files/Pods-detectAcneOneMoreTime/Pods-detectAcneOneMoreTime.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +58,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				539180472B4CFE820085C0B4 /* FirebaseMLModelDownloader in Frameworks */,
+				538E4C1B2BA762E80052990A /* Vision.framework in Frameworks */,
+				8A6706AAB613898A4F2B1971 /* Pods_detectAcneOneMoreTime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C584599F32DA7A64D23850F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				538E4C1A2BA762E80052990A /* Vision.framework */,
+				5B0C1FC802FF1D81482D5A72 /* Pods_detectAcneOneMoreTime.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		535DC1D22BB4978A00632D42 /* ML */ = {
+			isa = PBXGroup;
+			children = (
+				53EA432C2B9ADA010077D9E2 /* MLWork.swift */,
+				539179452B8CE21D006DC9E8 /* CompareFaces.swift */,
+			);
+			path = ML;
+			sourceTree = "<group>";
+		};
+		535DC1D32BB4979B00632D42 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				53AF1B382B4CF4AB00E192B0 /* ContentView.swift */,
+				538E4C202BA7E7450052990A /* CameraPreview.swift */,
+				53E8C1A32BB1F79100C4E3B8 /* AppImage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		53AF1B2A2B4CF4AA00E192B0 = {
 			isa = PBXGroup;
 			children = (
 				53AF1B352B4CF4AB00E192B0 /* detectAcneOneMoreTime */,
 				53AF1B342B4CF4AB00E192B0 /* Products */,
+				CD5B15756AFC19EE70B14117 /* Pods */,
+				0C584599F32DA7A64D23850F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,7 +117,11 @@
 			isa = PBXGroup;
 			children = (
 				53AF1B362B4CF4AB00E192B0 /* detectAcneOneMoreTimeApp.swift */,
-				53AF1B382B4CF4AB00E192B0 /* ContentView.swift */,
+				535DC1D32BB4979B00632D42 /* View */,
+				535DC1D22BB4978A00632D42 /* ML */,
+				535C5B132B9E22D30013EDC8 /* Info.plist */,
+				53AF1B4F2B4CF9DD00E192B0 /* Resourses */,
+				53AF1B442B4CF4EF00E192B0 /* GoogleService-Info.plist */,
 				53AF1B3A2B4CF4AC00E192B0 /* Assets.xcassets */,
 				53AF1B3C2B4CF4AC00E192B0 /* Preview Content */,
 			);
@@ -67,6 +136,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		53AF1B4F2B4CF9DD00E192B0 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				53B704BD2BACA33B009348A9 /* acnebinar_classification_model.tflite */,
+				538E4C482BABB65D0052990A /* acnebi_classification_model.tflite */,
+				538E4C412BABAC050052990A /* acne_classification_model21.tflite */,
+				538E4C1E2BA79B130052990A /* Faces.mlmodel */,
+				53EA432A2B9AD9230077D9E2 /* acne_classification_model10.tflite */,
+				5391804C2B4F3FFA0085C0B4 /* acne_classification_model17.h5.tflite */,
+				539180482B4D10D80085C0B4 /* retrained_labels.txt */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		CD5B15756AFC19EE70B14117 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCF1198E982DC75F8794A862 /* Pods-detectAcneOneMoreTime.debug.xcconfig */,
+				F73248EC1D60EBED94991CCB /* Pods-detectAcneOneMoreTime.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +166,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53AF1B412B4CF4AC00E192B0 /* Build configuration list for PBXNativeTarget "detectAcneOneMoreTime" */;
 			buildPhases = (
+				7FB7379195F5CDB775F60C08 /* [CP] Check Pods Manifest.lock */,
 				53AF1B2F2B4CF4AB00E192B0 /* Sources */,
 				53AF1B302B4CF4AB00E192B0 /* Frameworks */,
 				53AF1B312B4CF4AB00E192B0 /* Resources */,
@@ -83,6 +176,9 @@
 			dependencies = (
 			);
 			name = detectAcneOneMoreTime;
+			packageProductDependencies = (
+				539180462B4CFE820085C0B4 /* FirebaseMLModelDownloader */,
+			);
 			productName = detectAcneOneMoreTime;
 			productReference = 53AF1B332B4CF4AB00E192B0 /* detectAcneOneMoreTime.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +207,9 @@
 				Base,
 			);
 			mainGroup = 53AF1B2A2B4CF4AA00E192B0;
+			packageReferences = (
+				53AF1B462B4CF6EE00E192B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 53AF1B342B4CF4AB00E192B0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,18 +224,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B704BE2BACA34F009348A9 /* acnebinar_classification_model.tflite in Resources */,
+				538E4C492BABB6650052990A /* acnebi_classification_model.tflite in Resources */,
+				538E4C422BABAC200052990A /* acne_classification_model21.tflite in Resources */,
 				53AF1B3E2B4CF4AC00E192B0 /* Preview Assets.xcassets in Resources */,
+				53EA432B2B9AD9230077D9E2 /* acne_classification_model10.tflite in Resources */,
 				53AF1B3B2B4CF4AC00E192B0 /* Assets.xcassets in Resources */,
+				539180492B4D10D80085C0B4 /* retrained_labels.txt in Resources */,
+				53AF1B452B4CF4EF00E192B0 /* GoogleService-Info.plist in Resources */,
+				5391804D2B4F400C0085C0B4 /* acne_classification_model17.h5.tflite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FB7379195F5CDB775F60C08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-detectAcneOneMoreTime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		53AF1B2F2B4CF4AB00E192B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53E8C1A42BB1F79200C4E3B8 /* AppImage.swift in Sources */,
+				539179462B8CE21D006DC9E8 /* CompareFaces.swift in Sources */,
+				53EA432D2B9ADA010077D9E2 /* MLWork.swift in Sources */,
+				538E4C1F2BA79B130052990A /* Faces.mlmodel in Sources */,
+				538E4C212BA7E7450052990A /* CameraPreview.swift in Sources */,
 				53AF1B392B4CF4AB00E192B0 /* ContentView.swift in Sources */,
 				53AF1B372B4CF4AB00E192B0 /* detectAcneOneMoreTimeApp.swift in Sources */,
 			);
@@ -261,6 +397,7 @@
 		};
 		53AF1B422B4CF4AC00E192B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCF1198E982DC75F8794A862 /* Pods-detectAcneOneMoreTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -269,12 +406,21 @@
 				DEVELOPMENT_ASSET_PATHS = "\"detectAcneOneMoreTime/Preview Content\"";
 				DEVELOPMENT_TEAM = WB83P8J3VX;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/detectAcneOneMoreTime",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = detectAcneOneMoreTime/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MiSkin;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We will take your photo";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "acne detect";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,6 +436,7 @@
 		};
 		53AF1B432B4CF4AC00E192B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F73248EC1D60EBED94991CCB /* Pods-detectAcneOneMoreTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -298,12 +445,21 @@
 				DEVELOPMENT_ASSET_PATHS = "\"detectAcneOneMoreTime/Preview Content\"";
 				DEVELOPMENT_TEAM = WB83P8J3VX;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/detectAcneOneMoreTime",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = detectAcneOneMoreTime/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MiSkin;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We will take your photo";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "acne detect";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +495,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		53AF1B462B4CF6EE00E192B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		539180462B4CFE820085C0B4 /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53AF1B462B4CF6EE00E192B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 53AF1B2B2B4CF4AA00E192B0 /* Project object */;
 }

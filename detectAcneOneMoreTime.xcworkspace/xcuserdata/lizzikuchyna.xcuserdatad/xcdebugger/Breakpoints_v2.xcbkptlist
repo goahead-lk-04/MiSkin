@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A33A6BCB-3A66-4A7B-A643-94FD065FF18A"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F97A216D-0BF2-4135-BFE1-3DF71852E7C4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "detectAcneOneMoreTime/Core/Auth/AuthViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "AuthViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F97A216D-0BF2-4135-BFE1-3DF71852E7C4 - ad14723e69a2cd85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "detectAcneOneMoreTime.AuthViewModel.deinit"
+                  moduleName = "detectAcneOneMoreTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lizzikuchyna/AppleProjects/detectAcneOneMoreTime/detectAcneOneMoreTime/Core/Auth/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "F97A216D-0BF2-4135-BFE1-3DF71852E7C4 - 96ac9c32b5aa2407"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "detectAcneOneMoreTime.AuthViewModel.__deallocating_deinit"
+                  moduleName = "detectAcneOneMoreTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lizzikuchyna/AppleProjects/detectAcneOneMoreTime/detectAcneOneMoreTime/Core/Auth/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
